@@ -1,0 +1,39 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url("../image/snake.jpg");
+      background-color: #f0f0f0;
+      background-size: cover;
+    }
+#game-container {
+      text-align: center;
+    }
+#game-board {
+      width: 300px;
+      height: 300px;
+      border: 1px solid #000;
+      margin: 0 auto;
+    }
+h1 {
+      color: #333;
+    }
+#start-button{
+      color: black;
+      background-color: goldenrod;
+      cursor: pointer;
+    }
+#music-toggle-button{
+      color: black;
+      background-color: lightblue;
+      cursor: pointer;
+    }
+#Mode{
+      cursor: pointer;
+    }
+#option{
+      cursor: pointer;
+    }

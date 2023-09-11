@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="css/snakeex.css">
+    <link rel="icon"  href="image/snake.ico">
+</head>
+<body>
+  <center>
+    <div id="game-container">
+    <h1>Snake Game</h1>
+    <canvas id="game-board"></canvas>
+    <div>
+    <label for="difficulty">Select Difficulty:</label>
+    <select id="difficulty">
+      <option value="easy" id="option" >Easy</option>
+      <option value="medium" id="option" >Medium</option>
+      <option value="hard" id="option" >Hard</option>
+    </select>
+    <button id="start-button">Start Game</button>
+    <button id="music-toggle-button">Toggle Music</button>
+  </div>
+  <div>
+      <p>
+        <big>
+          Controls for snake:
+        <br>
+        ⇦ (or) "a" key for left
+        <br>
+        ⇧ (or) "w" key for up
+        <br>
+        ⇩ (or) "s" key for down
+        <br>
+        ⇨ (or) "d" key for right
+        </big>
+      </p>
+    </div>
+  </div>
+  <audio id="background-audio" loop>
+    <source src="music/song3.mp3" type="audio/mp3">
+  </audio>
+</center>
+</body>
+<script type="text/javascript" src="jss/snakeex.js"></script>
+</html>
